@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.logo{
+    width: 500px;
+    height: 60px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+nav .box{
+    list-style: none;
+    display: flex;
+    width: 365px;
+    height: 24px;
+    line-height:152%;
+    gap:32px;
+    text-decoration: none;
+}
+nav .box a {
+    font-size: 16px;
+    color:#000000;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding-left: 120px;
+    padding-right:120px ;
+}
+.btn{
+    background-color:#30b868;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight:600;
+    color: white;
+    cursor: pointer; 
+
+}
+.btn:hover{
+    background-color: #09833c;
+    transform: translateY(-2px);
+}
+.ptm:hover{
+    background-color: #2e814459;
+    transform: translateY(-2px);
+}
+nav .box a:hover{
+    color: #09833c;
+}
+.banner{
+    padding-top: 70px;
+    background: url(../assets/hero-bg.png);
+    width: 1600px;
+    height: 674px;
+}
+.banner .banner-text{
+    width: 1360px;
+    height: 379px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32;
+    margin: 70px 120px 134px 120px; 
+}
+.banner .banner-text .heading{
+    width: 770px;
+    height: 169px;
+    text-align: center;
+    margin: 51px 295px  6px 295px;
+}
+.banner .banner-text .heading h1{
+    font-family: Inter;
+    font-style: Bold;
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 84px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.banner .banner-text p{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+.banner .banner-text .button{
+    margin-top: 32px;
+    display: flex;
+    gap: 16px;
+}
+.ptm{
+    background:none;
+    border: 1px solid white;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight:600;
+    color: white;
+    cursor: pointer; 
+
+}
+.ctm{
+    color: #30b868;
+    border-radius: 1000px;
+    width: 229px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px 8px 12px;
+}
+
