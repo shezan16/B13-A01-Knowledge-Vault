@@ -218,6 +218,7 @@ background: rgba(255, 255, 255, 1);
 .solution {
   padding: 80px 5%;
   background: #fff;
+  margin-left: 120px;
 }
 
 .solution-container {
